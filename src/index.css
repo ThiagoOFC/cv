@@ -2,3 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (max-width: 480px) {
+    html {
+      font-size: 13px;
+    }
+  
+    .rs-drawer-right.rs-drawer-sm {
+      width: 200px;
+    }
+  }
+  
+  @screen xs {
+    html {
+      font-size: 13px;
+    }
+  
+    .rs-drawer-right.rs-drawer-sm {
+      width: 300px;
+    }
+  }
+  
+  @screen sm {
+    html {
+      font-size: 20px;
+    }
+  
+    .rs-drawer-right.rs-drawer-sm {
+      width: 500px;
+    }
+  }
+  
+  @screen md {
+    html {
+      font-size: 20px;
+    }
+  
+    .rs-drawer-right.rs-drawer-sm {
+      width: 600px;
+    }
+  }
+  
+  @screen lg {
+    html {
+      font-size: 16px;
+    }
+  
+    .rs-drawer-right.rs-drawer-sm {
+      width: 800px;
+    }
+  }
